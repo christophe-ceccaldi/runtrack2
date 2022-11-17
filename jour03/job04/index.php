@@ -21,3 +21,6 @@ for ($i=0; $i<$n; $i++){
     }
     echo $n-$j;
 ?>
+
+($_GET key ==> value)
+echo <tr>key<tr><td>value<td>
