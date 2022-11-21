@@ -4,13 +4,12 @@
     $var03 = 13.2;//stocke la variable float nombre décimal"
     $var04 = true;//stocke la variable bolléan//
 
-
+    //tableau d'affichage des 4 variables primitives (chaine de caractère, entier integar, nombre à virgule float number, et bolléan)//
     echo "
     <table>
         <tbody>
             <tr>
-            <th>
-            type</th><th>nom</th><th>valeur</th>
+            <th>type</th><th>nom</th><th>valeur</th>
             </tr>
             <tr>
             <td>primitive</td><td>chaine de caractère</td><td>ma chaine de caractère</td>

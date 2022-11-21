@@ -1,5 +1,5 @@
 <?php
-//création des variables//
+//création des variables $str et $vowels//
 $str = "I'm sorry Dave I'm afraid I can't do that";
 $vowel = ['a','e','i','o','u'];
 //pour pacourir toute ma chaine de caractère//

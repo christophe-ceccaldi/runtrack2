@@ -23,7 +23,7 @@
             <tbody>
                  <!--partie php-->
                 <?php
-                /*utilisation de la boucle foreach avec $_POST pour récupérer les arguments et les => valeurs création 
+                /*utilisation de la boucle foreach avec $_POST pour lire et récupérer les arguments et les => valeurs création 
                 des variables $key et $value avec as*/
                 foreach ($_POST as $key => $value){
                     echo "<tr><td>$key</td> <td>$value</td></tr>";

@@ -1,5 +1,5 @@
 <?php
-//pour définir les variable et l'incrémentation//
+//pour définir la variable et l'incrémentation//
 for ($i = 0; $i < 101; $i++) {
     //si affichage du nombre multiple de 3 et de 5 affiche FizzBuzz//
     if ($i % 3 === 0 && $i % 5 === 0) {

@@ -26,7 +26,7 @@
                     /*fonction isset qui permet de partir sur une page vierge sans utilisation 
                     de isset même si l'algorythme fonctionne un message d'erreur apparait avant de rentrer des arguments*/ 
                     if (isset($_POST["nom"])){
-                    // algorythme avec $_POST qui permet de vérifiez si le username et le password sont correcte//
+                    // algorythme avec $_POST qui permet parcourir le tableau et de vérifiez si le username et le password sont correcte//
                     if ($_POST["nom"]=="John" && $_POST["password"]=="Rambo"){
                     //si le username et le password sont correcte echo affiche "Ce n'est pas ma guerre"//
                     echo "Ce n'est pas ma guerre";

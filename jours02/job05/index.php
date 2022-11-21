@@ -1,5 +1,5 @@
 <?php
-//pour définir les variable et l'incrémentation//
+//pour définir la variable et l'incrémentation//
 for ($i = 2; $i < 1001; $i++) {
     //variable pas nombre primaire = faux//
     $notAPrime = false;

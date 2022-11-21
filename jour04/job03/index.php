@@ -1,7 +1,7 @@
 <!DOCTYPE
 <html>
     <head>
-      <meta charset="UTF-89">  
+      <meta charset="UTF-8">  
     </head>
     <body>
         <header>
@@ -17,7 +17,7 @@
             <?php
             //mise en place du compteur//
             $n = 0;
-            //boucle foreach $_POST pour récupérer le nombre d'arguments et création de la variale $arg avec as et utilisation du compteur// 
+            //boucle foreach $_POST pour lire et récupérer le nombre d'arguments et création de la variale $arg avec as et utilisation du compteur// 
             foreach ($_POST as $arg){
                 $n++;
             }

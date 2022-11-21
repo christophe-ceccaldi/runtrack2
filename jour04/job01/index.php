@@ -12,7 +12,7 @@
         <?php
         //mise en place du compteur//
             $n = 0;
-            //boucle foreach $_GET pour récupérer le nombre d'arguments et création de la variale $arg avec as et utilisation du compteur// 
+            //boucle foreach (traduction pour chaque) $_GET pour lire et récupérer le nombre d'arguments et création de la variale $arg avec as et utilisation du compteur// 
             foreach ($_GET as $arg){
                 $n++;
             }
