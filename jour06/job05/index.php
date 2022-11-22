@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
        
  
-    <link rel="stylesheet" type="text/css" href="<?php echo $_GET['multi']?>">
+    <link rel="stylesheet" type="text/css" href="<?php $s = (isset($_GET['multi'])) ? $_GET['multi'] : 'style01';  echo $s?>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Rubik+Distressed&family=Rubik+Glitch&display=swap" rel="stylesheet">
