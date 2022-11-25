@@ -1,3 +1,2 @@
-commandes pour une requête permettant de sélectionner l’ensemble
-d champs du tableau etudiants.
+--commandes pour une requête permettant de sélectionner l’ensemble des champs du tableau etudiants.
 SELECT * FROM `etudiants`;
