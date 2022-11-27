@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="FR">
     <head>
@@ -9,8 +10,8 @@
     <body>
         <?php
        
-        $secondsqli = new mysqli("localhost", "root", "", "jour09") ; 
-        $result = $secondsqli->query("SELECT nom, capacite FROM salles");
+        $thirdsqli = new mysqli("localhost", "root", "", "jour09") ; 
+        $result = $thirdsqli->query("SELECT prenom, nom, naissance FROM etudiants WHERE sexe = 'femme'");
         
         $result = $result->fetch_all();
        //echo '<pre>';
@@ -22,7 +23,7 @@
         <table>
         
             <thead>
-                <tr> <th>Nom</th> <th>capacité</th></tr>
+                <tr> <th>Prenom</th> <th>nom</th> <th>Naissance</th> </tr>
             </thead>
             <tbody>
                 <?php
@@ -31,6 +32,7 @@
                         <tr>
                         <td>$value[0]</td>
                         <td>$value[1]</td>
+                        <td>$value[2]</td>
                         </tr>";
                 }
                     ?>

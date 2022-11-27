@@ -1,16 +1,17 @@
+
 <!DOCTYPE html>
 <html lang="FR">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>job03</title>
+        <title>job13</title>
     </head>
     <body>
         <?php
        
-        $secondsqli = new mysqli("localhost", "root", "", "jour09") ; 
-        $result = $secondsqli->query("SELECT nom, capacite FROM salles");
+        $job13sqli = new mysqli("localhost", "root", "", "jour09") ; 
+        $result = $job13sqli->query("SELECT nom, id_etage FROM salles");
         
         $result = $result->fetch_all();
        //echo '<pre>';
@@ -22,7 +23,7 @@
         <table>
         
             <thead>
-                <tr> <th>Nom</th> <th>capacité</th></tr>
+                <tr> <th>Nom salle</th> <th>Nom etage</th> </tr>
             </thead>
             <tbody>
                 <?php
